@@ -1,45 +1,28 @@
 📚 SkillShare - Online Course Browsing and Purchasing System
 📌 Overview
-SkillShare is a web application designed to provide a seamless browsing and purchasing experience for courses across various domains like technology, IT, data science, AI, ML, DS, sales, and marketing.
+SkillShare is a full-stack web application that provides a seamless browsing and purchasing experience for courses across various domains, including Technology, IT, Data Science, AI, ML, Sales, and Marketing.
 
-🚀 Features
-🔄 CRUD Operations for efficient data management and interaction
-
-🌐 Responsive User Interface to enhance user experience across devices
-
-🔒 User Authentication & Role Management
-
-📈 Analytics Dashboard for course performance tracking
-
-🛒 Shopping Cart & Checkout System
-
+🚀 Features:
+🔄 Full CRUD Operations for course management
+🌐 Responsive User Interface for seamless experience across devices
+🔒 User Authentication & Role-Based Access Control (RBAC)
+📈 Analytics Dashboard to track course performance
+🛒 Shopping Cart & Secure Checkout System
 📩 Automated Email Notifications for purchase confirmations
 
 🛠️ Tech Stack
 Frontend: 🎨
-HTML5 for structure
-
-CSS for styling
-
-JavaScript for interactivity
+HTML5 - Structuring web pages
+CSS3 - Styling and layout
+JavaScript - Interactivity and dynamic content
 
 Backend: 🧑🏻‍💻
-Node.js for server-side logic
+Node.js - Server-side logic and APIs
+Express.js - Lightweight and scalable backend framework
 
-MySQL for database management
+Database: 📊
+MySQL - Relational database for course and user data management
 
-Deployment: 🌍
-Deployed on a cloud platform for high availability and scalability
-
-🔧 How to Use
-Clone the repository: git clone https://github.com/yourusername/skillshare.git
-
-Navigate to the project directory: cd skillshare
-
-Install dependencies: npm install
-
-Configure the database connection in the .env file.
-
-Start the application: npm start
-
-Open your browser and visit http://localhost:3000
+Security & Deployment: 🔐
+JWT Authentication for secure user access
+Password Encryption (BCrypt.js)
